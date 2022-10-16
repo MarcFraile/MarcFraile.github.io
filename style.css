@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Bitter';
+    src: url('BitterPro-Regular.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f0b07;
+    background-color: #fff8f0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#me-face {
+    max-height: 12rem;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+.container {
+    max-width: 60rem;
+}
+
+#job-position {
+    color: #666;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    text-align: justify;
+}
