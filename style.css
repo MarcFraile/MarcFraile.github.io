@@ -30,6 +30,10 @@ header {
     justify-content: space-between;
 }
 
+header h2, header h3 {
+    color: #666;
+}
+
 #me-face {
     max-height: 12rem;
     padding: 1rem;
@@ -37,15 +41,27 @@ header {
 }
 
 .container {
-    max-width: 60rem;
-}
-
-#job-position {
-    color: #666;
+    max-width: 50rem;
 }
 
 main {
     margin: auto;
     padding: 1rem;
     text-align: justify;
+}
+
+.paper-publication {
+    font-style: italic;
+}
+
+.paper-type {
+    font-weight: bold;
+}
+
+.code-available {
+    float: right;
+}
+
+li {
+    margin-bottom: 1rem;
 }
