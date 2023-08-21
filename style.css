@@ -58,8 +58,13 @@ main {
     font-weight: bold;
 }
 
-.code-available {
+.right {
+    text-align: right;
     float: right;
+}
+
+.authors, .paper-publication {
+    color: #444;
 }
 
 li {
