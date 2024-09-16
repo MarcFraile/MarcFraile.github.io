@@ -20,10 +20,24 @@ const splitMillis = (millis) => {
 };
 
 window.onload = () => {
+    const cartoonSwapper = document.getElementById("cartoon-swapper");
+    const cartoonNormal = document.getElementById("cartoon-normal");
+    const cartoonInverted = document.getElementById("cartoon-inverted");
+
+    cartoonSwapper.onmouseenter = () => {
+        cartoonNormal.style.display = "none";
+        cartoonInverted.style.display = "inline";
+    };
+
+    cartoonSwapper.onmouseleave = () => {
+        cartoonInverted.style.display = "none";
+        cartoonNormal.style.display = "inline";
+    };
+
     const timerDiv = document.getElementById("timer");
 
     const updateTime = () => {
-        const defenseDate = new Date("November 22, 2024 09:15:00")
+        const defenseDate = new Date("November 22, 2024 09:15:00");
         const now = new Date();
 
         const totalRemainingMs = defenseDate - now;
