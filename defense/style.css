@@ -43,3 +43,18 @@ img {
 #cartoon-inverted {
     display: none;
 }
+
+main:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url("chatgpt-eldritch-ai-512.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.03;
+}
